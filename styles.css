@@ -1,3 +1,60 @@
+body {
+  /* I can't figure out how to get the blue background behind the image
+  since it doesn't take the whole screen */
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  background-image: url("mortgage.jpg");
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
-  text-decoration: underline;
+  text-align: center;
+}
+
+div {
+  background-color: black;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #44c149;
+  color: rgb(15, 9, 9);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
 }
